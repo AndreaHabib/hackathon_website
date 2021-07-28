@@ -1,0 +1,562 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap");
+
+.particles {
+  position: absolute;
+  z-index: -100;
+}
+
+#sponsors_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sponsor_img {
+  width: 50%;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(69, 31, 100);
+  top: 0;
+  width: 100%;
+  background: rgba(58, 14, 14, 0.3);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-decoration: none;
+  backdrop-filter: blur(5px);
+  z-index: 10000;
+  font-size: large;
+}
+
+.option {
+  position: relative;
+}
+
+.option:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  color: #ff3700 !important;
+  bottom: 0;
+  left: 0;
+  background-color: #ff3700;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.option:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 43px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+html {
+  background: #2b5876; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #4e4376,
+    #2b5876
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #4e4376,
+    #2b5876
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+  color: white;
+  background-color: #263036;
+}
+
+.container img {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 110%;
+}
+
+.container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.box {
+  padding: 20px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.member_image {
+  width: 9.1rem;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  height: 10.5rem;
+}
+
+#sponsors {
+  margin-bottom: 100px;
+}
+
+#section2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-bottom: 200px;
+}
+
+#section2_container {
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#section1 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  position: relative;
+  height: 100vh;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 5px solid rgba(58, 14, 14, 0.3);
+}
+
+#section3_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#section3 {
+  margin-bottom: 8rem;
+}
+
+#section4 {
+  padding-top: 30px;
+}
+
+#section4_container {
+  display: flex;
+  font-size: 20px;
+  margin-left: 5rem;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#section5 {
+  padding-top: 30px;
+  margin-bottom: 10rem;
+}
+
+#section5_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.skillsIMG {
+  margin-right: 10px;
+}
+
+#planet {
+  align-self: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#planetIMG {
+  display: block;
+  margin: 0 auto;
+}
+
+#button {
+  padding: 10px;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  background: #f7d16f;
+  border-radius: 5px;
+}
+
+#text {
+  margin-right: 5rem;
+  align-self: center;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#img {
+  align-self: center;
+}
+
+#img1 {
+  align-self: center;
+}
+
+.clubName {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-size: 35px;
+}
+
+#section1_IMG {
+  max-width: 25vw;
+  border-radius: 100%;
+  border: 3px solid;
+}
+
+#section2_IMG {
+  max-width: 50vw;
+}
+
+#footer {
+  text-align: center;
+  width: 100%;
+}
+
+#footer p {
+  background-color: #263036 !important;
+  position: absolute;
+  width: 100%;
+}
+
+a small {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #sponsors_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor_img {
+    width: 85%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  body {
+    line-height: 30px;
+  }
+
+  #section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #planetIMG {
+    width: 90vw;
+  }
+
+  #section2_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .skillsIMG {
+    max-width: 60vw;
+    align-self: center;
+  }
+
+  .column #text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #text {
+    font-size: 0.8rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    width: 300px;
+  }
+
+  #section3_container {
+    display: flex;
+    margin-left: 0.5rem;
+    flex-direction: column;
+  }
+
+  #section4_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  #section1_IMG {
+    max-width: 15rem;
+  }
+  #button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) and (min-width: 540px) {
+  #text {
+    width: 80%;
+  }
+  .column #text {
+    width: 94%;
+    padding-right: 0px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+
+  #section4_container {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  body {
+    line-height: 42px;
+  }
+
+  #section1 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section2_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section3_container {
+    display: flex;
+    margin-left: 0.5rem;
+    flex-direction: column;
+  }
+
+  #section4_container {
+    display: flex;
+    margin-left: 4rem;
+    flex-direction: column;
+  }
+
+  .skillsIMG {
+    max-width: 100vw;
+    align-self: center;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  #text {
+    margin-right: 0;
+    align-self: center;
+    padding: 15px;
+    font-size: 2rem;
+    width: 80%;
+    margin-bottom: 2.5rem;
+    padding-right: 10px;
+  }
+
+  .column #text {
+    width: 90%;
+  }
+
+  #section1_IMG {
+    max-width: 30rem;
+  }
+
+  .nav {
+    font-size: x-large;
+  }
+
+  #section2_IMG {
+    max-width: 30rem;
+  }
+
+  #button {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  body {
+    line-height: 42px;
+  }
+
+  .nav {
+    font-size: x-large;
+  }
+
+  .member_image {
+    width: 15rem;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    height: 16.3rem;
+  }
+
+  #section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section2_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section3_container {
+    display: flex;
+    margin-left: 0.5rem;
+    flex-direction: column;
+  }
+
+  #section4_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .skillsIMG {
+    max-width: 60vw;
+    align-self: center;
+  }
+  #text {
+    align-self: center;
+    width: 80%;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .column #text {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    width: 90%;
+  }
+
+  #section1_IMG {
+    max-width: 20rem;
+  }
+
+  #section2_IMG {
+    max-width: 30rem;
+  }
+
+  #button {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 280px) and (min-width: 280px) {
+  body {
+    line-height: 30px;
+  }
+
+  #section1 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  #text {
+    padding: 0;
+    font-size: 1rem;
+    width: 99%;
+    padding-left: 2.5px;
+    margin-left: -5px;
+    padding-bottom: 10px;
+  }
+
+  .column #text {
+    width: 100%;
+    margin-left: 0.1px;
+    padding: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section3 {
+    margin-bottom: 0;
+  }
+
+  #section4_container {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    flex-direction: column;
+  }
+}
