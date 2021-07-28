@@ -15,7 +15,7 @@ function IndexPage() {
     <>
       <Nav className="justify-content-center nav">
         <Nav.Item>
-          <Link to="about" spy={true} delay={false}>
+          <Link to="section2" spy={true} delay={false}>
             <Nav.Link
               className="option"
               style={{ color: "white", textDecoration: "none" }}
@@ -25,7 +25,7 @@ function IndexPage() {
           </Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="contact" spy={true} delay={false}>
+          <Link to="section4" spy={true} delay={false}>
             <Nav.Link
               className="option"
               style={{ color: "white", textDecoration: "none" }}
@@ -35,15 +35,14 @@ function IndexPage() {
           </Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link
-            href="https://forms.gle/P9j5z97R1hqAHyPo9"
-            target="_blank"
-            rel="noreferrer"
-            className="option"
-            style={{ color: "white", textDecoration: "none" }}
-          >
-            Team <FontAwesomeIcon icon={faUserFriends} size="1x" />
-          </Nav.Link>
+          <Link to="section5" spy={true} delay={false}>
+            <Nav.Link
+              className="option"
+              style={{ color: "white", textDecoration: "none" }}
+            >
+              Team <FontAwesomeIcon icon={faUserFriends} size="1x" />
+            </Nav.Link>
+          </Link>
         </Nav.Item>
       </Nav>
       <Particles
