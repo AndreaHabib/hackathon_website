@@ -18,7 +18,7 @@ export default function LandingPage() {
         <a
           style={{ marginLeft: "10px" }}
           id="button"
-          href="#"
+          href="#void"
           target="_blank"
           rel="noreferrer"
         >
