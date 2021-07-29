@@ -1,4 +1,4 @@
-import IndexPage from "./view";
+import IndexPage from "./view/Main";
 
 function App() {
   return <IndexPage />;

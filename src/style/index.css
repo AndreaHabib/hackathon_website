@@ -16,6 +16,20 @@
   width: 50%;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: x-large;
+  border: 5px solid #263035;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer a:hover {
+  background-color: #263035;
+}
+
 .nav {
   position: fixed;
   display: flex;
@@ -42,10 +56,10 @@
   position: absolute;
   width: 100%;
   height: 2px;
-  color: #ff3700 !important;
+  color: #4b118d !important;
   bottom: 0;
   left: 0;
-  background-color: #ff3700;
+  background-color: #9d5fe4;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -63,10 +77,6 @@ body {
   margin: 0;
   padding: 0;
   line-height: 43px;
-}
-
-.menu-icon {
-  display: none;
 }
 
 html {
@@ -141,7 +151,7 @@ html {
 #section2 {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 50px;
   margin-bottom: 200px;
 }
@@ -222,10 +232,14 @@ html {
 #button {
   padding: 10px;
   font-size: 35px;
-  color: black;
+  color: white;
+  border: 4px solid #483357;
   text-decoration: none;
-  background: #f7d16f;
   border-radius: 5px;
+}
+
+#button:hover {
+  background: #483357;
 }
 
 #text {
@@ -236,6 +250,7 @@ html {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 10px;
+  box-shadow: 5px 5px rgba(58, 14, 14, 0.3);
 }
 
 #img {
@@ -260,7 +275,7 @@ html {
 }
 
 #section2_IMG {
-  max-width: 50vw;
+  width: 45vw;
 }
 
 #footer {
@@ -280,18 +295,22 @@ a small {
 }
 
 @media screen and (max-width: 768px) {
+  footer a {
+    font-size: larger;
+  }
+
   #sponsors_box {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .sponsor_img {
-    width: 85%;
+  #section2_IMG {
+    width: 90vw;
   }
 
-  .menu-icon {
-    display: block;
+  .sponsor_img {
+    width: 85%;
   }
 
   body {
@@ -352,7 +371,7 @@ a small {
   }
 
   #section1_IMG {
-    max-width: 15rem;
+    max-width: 13rem;
   }
   #button {
     font-size: 1rem;
@@ -372,6 +391,10 @@ a small {
 
   #section4_container {
     margin-left: 0;
+  }
+
+  #section2_IMG {
+    width: 60vw;
   }
 }
 
@@ -524,8 +547,11 @@ a small {
     line-height: 30px;
   }
 
+  #section1 #text {
+    margin-left: 1px;
+  }
+
   #section1 {
-    margin-left: 10px;
     display: flex;
     flex-direction: column;
   }
