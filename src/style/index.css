@@ -184,7 +184,7 @@ html {
 }
 
 #section3 {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 #section4 {
@@ -215,6 +215,8 @@ html {
 
 .skillsIMG {
   margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #planet {
