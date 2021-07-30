@@ -15,7 +15,6 @@ This repository contains the source code of Hack-A-Project informative website.
 
 - [Getting Started](#getting-started)
 - [Contribution](#contribution)
-- [Thank You](#thank-you)
 - [License](#license)
 
 # Getting Started
