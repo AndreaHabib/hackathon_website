@@ -4,7 +4,14 @@ export default function Team() {
   return (
     <div id="section5">
       <h1 className="title">Meet the Organizers</h1>
-      <h3 className="clubName">Hack-A-Project</h3>
+      <a
+        rel="noreferrer"
+        href="https://hack-a-project.netlify.app/"
+        target="_blank"
+        className="clubName"
+      >
+        Hack-A-Project
+      </a>
       <div id="section5_container">
         <div className="team">
           <div className="row">

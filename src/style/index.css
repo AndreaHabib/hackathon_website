@@ -21,13 +21,15 @@ footer a {
   text-decoration: none;
   margin: 10px;
   font-size: x-large;
-  border: 5px solid #263035;
   padding: 10px;
+  background-color: #263035;
   border-radius: 10px;
 }
 
 footer a:hover {
-  background-color: #263035;
+  padding: 5px;
+  background-color: #2b5775;
+  border: 5px solid #263035;
 }
 
 .nav {
@@ -235,13 +237,15 @@ html {
   padding: 10px;
   font-size: 35px;
   color: white;
-  border: 4px solid #483357;
+  background: #483357;
   text-decoration: none;
   border-radius: 5px;
 }
 
 #button:hover {
-  background: #483357;
+  padding: 6px;
+  background-color: #5e5883;
+  border: 4px solid #483357;
 }
 
 #text {
@@ -264,10 +268,24 @@ html {
 }
 
 .clubName {
-  text-align: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: #172b46;
+  justify-content: center;
   margin-bottom: 3rem;
   font-style: normal;
   font-size: 35px;
+}
+
+.clubName:hover {
+  background-color: #365276;
+  border: 5px solid #172b46;
+  padding: 5px;
 }
 
 #section1_IMG {

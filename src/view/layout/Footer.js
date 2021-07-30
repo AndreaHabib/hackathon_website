@@ -3,6 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer id="footer">
+      <h1>Links to Our Sponsors</h1>
       <span id="sponsors_box">
         <a
           href="https://github.com/about"

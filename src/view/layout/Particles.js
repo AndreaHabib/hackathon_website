@@ -6,6 +6,7 @@ export default function ParticlesContainer() {
     <Particles
       className="particles"
       height="100vh"
+      width="100vw"
       params={{
         particles: {
           number: {
