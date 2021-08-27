@@ -41,7 +41,7 @@ export default function FAQ() {
             <div id="text">
               <h2>When and how long is the hackathon?</h2>
               <p id="paragraph">
-                The hackathon will take place on Septmeber 3rd 3:30PM to
+                The hackathon will take place on September 3rd 3:30PM to
                 September 5th 11:59PM, and it will run for about 48 hours.
               </p>
             </div>
