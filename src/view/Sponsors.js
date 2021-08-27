@@ -8,7 +8,7 @@ export default function Sponsors() {
         <img
           alt="github"
           className="sponsor_img"
-          src="https://i.gzn.jp/img/2020/11/05/github-source-code-leak/00.png"
+          src="https://res.cloudinary.com/andreahabib/image/upload/v1630091636/GitHub_Logo_White_endb41.png"
         ></img>
         <img
           className="sponsor_img"

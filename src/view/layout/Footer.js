@@ -6,7 +6,7 @@ export default function Footer() {
       <h1>Links to Our Sponsors</h1>
       <span id="sponsors_box">
         <a
-          href="https://github.com/about"
+          href="https://education.github.com/discount_requests/student_application?utm_source=2021-09-03-HackCSI"
           rel="noreferrer"
           target="_blank"
           className="sponsor_text"
